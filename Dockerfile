@@ -6,5 +6,4 @@ RUN pip install awscli
 
 ADD build_and_codedeploy.sh /
 
-# CMD ["./build_and_codedeploy.sh"]
-CMD ["bash"]
+CMD ["./build_and_codedeploy.sh"]
